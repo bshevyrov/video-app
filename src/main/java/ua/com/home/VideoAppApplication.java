@@ -20,7 +20,7 @@ public class VideoAppApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(VideoAppApplication.class, args);
-        IPv4Address loopbackv4 = new IPAddressString("127.0.0.1").
+        IPv4Address loopbackv4 = new IPAddressString("93.92.87.7").
                 getAddress().toIPv4();
         int val = loopbackv4.intValue();
         System.out.println(val);
